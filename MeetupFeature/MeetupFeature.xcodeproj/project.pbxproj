@@ -15,6 +15,8 @@
 		1BFB223F1E1F1C3D00D75ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFB223D1E1F1C3D00D75ADD /* LaunchScreen.storyboard */; };
 		1BFB224A1E1F1C3D00D75ADD /* MeetupFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB22491E1F1C3D00D75ADD /* MeetupFeatureTests.swift */; };
 		1BFB22551E1F1C3D00D75ADD /* MeetupFeatureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB22541E1F1C3D00D75ADD /* MeetupFeatureUITests.swift */; };
+		1BFB22631E1F1C9700D75ADD /* MeetupAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB22621E1F1C9700D75ADD /* MeetupAPIClient.swift */; };
+		1BFB22651E1F20A700D75ADD /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB22641E1F20A700D75ADD /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1BFB22501E1F1C3D00D75ADD /* MeetupFeatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetupFeatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFB22541E1F1C3D00D75ADD /* MeetupFeatureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupFeatureUITests.swift; sourceTree = "<group>"; };
 		1BFB22561E1F1C3D00D75ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BFB22621E1F1C9700D75ADD /* MeetupAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupAPIClient.swift; sourceTree = "<group>"; };
+		1BFB22641E1F20A700D75ADD /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				1BFB22311E1F1C3D00D75ADD /* AppDelegate.swift */,
 				1BFB22331E1F1C3D00D75ADD /* ViewController.swift */,
+				1BFB22621E1F1C9700D75ADD /* MeetupAPIClient.swift */,
+				1BFB22641E1F20A700D75ADD /* Secrets.swift */,
 				1BFB22351E1F1C3D00D75ADD /* Main.storyboard */,
 				1BFB223B1E1F1C3D00D75ADD /* Assets.xcassets */,
 				1BFB223D1E1F1C3D00D75ADD /* LaunchScreen.storyboard */,
@@ -264,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BFB22341E1F1C3D00D75ADD /* ViewController.swift in Sources */,
+				1BFB22651E1F20A700D75ADD /* Secrets.swift in Sources */,
+				1BFB22631E1F1C9700D75ADD /* MeetupAPIClient.swift in Sources */,
 				1BFB223A1E1F1C3D00D75ADD /* MeetupFeature.xcdatamodeld in Sources */,
 				1BFB22321E1F1C3D00D75ADD /* AppDelegate.swift in Sources */,
 			);
@@ -510,6 +518,7 @@
 				1BFB225B1E1F1C3D00D75ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BFB225C1E1F1C3D00D75ADD /* Build configuration list for PBXNativeTarget "MeetupFeatureTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +527,7 @@
 				1BFB225E1E1F1C3D00D75ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BFB225F1E1F1C3D00D75ADD /* Build configuration list for PBXNativeTarget "MeetupFeatureUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +536,7 @@
 				1BFB22611E1F1C3D00D75ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
