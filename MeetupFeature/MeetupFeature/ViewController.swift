@@ -13,10 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        MeetupAPIClient.getMeetupInformation { (meetupJSON) in
-            print("*****************************")
-            print(meetupJSON)
-            print("*****************************")
+      MeetupAPIClient.getMeetupInformation { (meetupArray) in
+        print("****************************")
+        print(meetupArray)
+        print("****************************")
         }
     }
 
