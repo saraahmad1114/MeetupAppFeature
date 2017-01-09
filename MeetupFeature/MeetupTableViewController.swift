@@ -14,7 +14,6 @@ class MeetupTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.store.getMeetupInformationWith { (meetupObjectsArray) in
             print("**********************************")
             print(meetupObjectsArray)
