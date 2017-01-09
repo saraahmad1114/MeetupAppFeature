@@ -55,21 +55,19 @@ class MeetupDataStore{
                 print("Meetup Group Name: \(singleMeetupObject.groupName)")
                 print("Meetup Event Name: \(singleMeetupObject.eventName)")
                 print("Meetup Venue Zip: \(singleMeetupObject.venueZip)")
-                print(<#T##items: Any...##Any#>)
-                
+                print("Meetup Venue Country: \(singleMeetupObject.venueCountry)")
+                print("Meetup Venue City: \(singleMeetupObject.venueCity)")
+                print("Meetup Venue Address: \(singleMeetupObject.venueAddress)")
+                print("Meetup Venue Phone: \(singleMeetupObject.venuePhone)")
+                print("Meetup Venue Name: \(singleMeetupObject.venueName)")
+                print("Meetup Venue State: \(singleMeetupObject.venueState)")
                 print("***********************************************************")
                 
-                
                 self.meetupArray.append(singleMeetupObject)
+                print(self.meetupArray.count)
             }
-            
             Completion(meetupArray)
         }
-    
     }
-    
-    
-    
-
 
 }
