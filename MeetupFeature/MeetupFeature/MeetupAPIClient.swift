@@ -35,8 +35,6 @@ class MeetupAPIClient {
             guard let unwrappedResultsArray = resultsArray else {print("resultsArray did not unwrap"); return}
                 
             meetupJsonDictionary = unwrappedResultsArray
-
-//            works just fine!
             
             completion(meetupJsonDictionary)
             
