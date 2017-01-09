@@ -24,6 +24,16 @@ class MeetupTableViewController: UITableViewController {
             }
         }
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        OperationQueue.main.addOperation {
+            self.tableView.reloadData()
+            print("********************************")
+            print(self.store.meetupArray.count)
+            print("********************************")
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -46,11 +56,17 @@ class MeetupTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "rightDetailCell", for: indexPath)
 
-        // Configure the cell...
-
+        if let unwrappededGroupName = self.store.meetupArray[indexPath.row].groupName{
+        
+        cell.textLabel?.text = unwrappededGroupName
+        }
+        
+        if let unwrappedEventName = self.store.meetupArray[indexPath.row].eventName{
+            
+        cell.detailTextLabel?.text = unwrappedEventName
+        }
         return cell
     }
-
 
     /*
     // Override to support conditional editing of the table view.
