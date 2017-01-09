@@ -19,6 +19,7 @@
 		1BFB22671E22FEC700D75ADD /* SingleMeetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB22661E22FEC700D75ADD /* SingleMeetup.swift */; };
 		1BFB22691E23010A00D75ADD /* MeetupDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB22681E23010A00D75ADD /* MeetupDataStore.swift */; };
 		1BFB226D1E232B9E00D75ADD /* MeetupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB226C1E232B9E00D75ADD /* MeetupTableViewController.swift */; };
+		1BFB226F1E232DEB00D75ADD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB226E1E232DEB00D75ADD /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		1BFB22661E22FEC700D75ADD /* SingleMeetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleMeetup.swift; sourceTree = "<group>"; };
 		1BFB22681E23010A00D75ADD /* MeetupDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupDataStore.swift; sourceTree = "<group>"; };
 		1BFB226C1E232B9E00D75ADD /* MeetupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeetupTableViewController.swift; path = ../MeetupTableViewController.swift; sourceTree = "<group>"; };
+		1BFB226E1E232DEB00D75ADD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				1BFB22661E22FEC700D75ADD /* SingleMeetup.swift */,
 				1BFB22681E23010A00D75ADD /* MeetupDataStore.swift */,
 				1BFB226C1E232B9E00D75ADD /* MeetupTableViewController.swift */,
+				1BFB226E1E232DEB00D75ADD /* DetailViewController.swift */,
 				1BFB22351E1F1C3D00D75ADD /* Main.storyboard */,
 				1BFB223B1E1F1C3D00D75ADD /* Assets.xcassets */,
 				1BFB223D1E1F1C3D00D75ADD /* LaunchScreen.storyboard */,
@@ -282,6 +285,7 @@
 				1BFB226D1E232B9E00D75ADD /* MeetupTableViewController.swift in Sources */,
 				1BFB22321E1F1C3D00D75ADD /* AppDelegate.swift in Sources */,
 				1BFB22671E22FEC700D75ADD /* SingleMeetup.swift in Sources */,
+				1BFB226F1E232DEB00D75ADD /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
