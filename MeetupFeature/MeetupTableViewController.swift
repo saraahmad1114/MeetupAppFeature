@@ -32,8 +32,7 @@ class MeetupTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        var numberOfRows = self.store
-        return numberOfRows
+        return self.store.meetupArray.count
     }
 
     
