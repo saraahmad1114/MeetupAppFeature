@@ -10,9 +10,9 @@ import Foundation
 
 class MeetupDataStore{
 
-    static let sharedInstance = MeetupAPIClient()
+    static let sharedInstance = MeetupDataStore()
     private init(){}
-    //singleton
+    //singleton    
     
     var meetupArray: [SingleMeetup] = []
     //array to hold all the meetups
