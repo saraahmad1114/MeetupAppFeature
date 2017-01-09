@@ -1,5 +1,5 @@
 //
-//  TableViewController.swift
+//  MeetupTableViewController.swift
 //  MeetupFeature
 //
 //  Created by Flatiron School on 1/8/17.
@@ -8,9 +8,7 @@
 
 import UIKit
 
-class TableViewController: UITableViewController {
-    
-    let store = MeetupDataStore.sharedInstance
+class MeetupTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,17 +28,13 @@ class TableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-    
-    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return
+        return 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        
+        return 0
     }
 
     /*

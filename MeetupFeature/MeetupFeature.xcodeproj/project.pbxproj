@@ -18,7 +18,7 @@
 		1BFB22651E1F20A700D75ADD /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB22641E1F20A700D75ADD /* Secrets.swift */; };
 		1BFB22671E22FEC700D75ADD /* SingleMeetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB22661E22FEC700D75ADD /* SingleMeetup.swift */; };
 		1BFB22691E23010A00D75ADD /* MeetupDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB22681E23010A00D75ADD /* MeetupDataStore.swift */; };
-		1BFB226B1E23288900D75ADD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB226A1E23288900D75ADD /* TableViewController.swift */; };
+		1BFB226D1E232B9E00D75ADD /* MeetupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB226C1E232B9E00D75ADD /* MeetupTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		1BFB22641E1F20A700D75ADD /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		1BFB22661E22FEC700D75ADD /* SingleMeetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleMeetup.swift; sourceTree = "<group>"; };
 		1BFB22681E23010A00D75ADD /* MeetupDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupDataStore.swift; sourceTree = "<group>"; };
-		1BFB226A1E23288900D75ADD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+		1BFB226C1E232B9E00D75ADD /* MeetupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeetupTableViewController.swift; path = ../MeetupTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 				1BFB22621E1F1C9700D75ADD /* MeetupAPIClient.swift */,
 				1BFB22661E22FEC700D75ADD /* SingleMeetup.swift */,
 				1BFB22681E23010A00D75ADD /* MeetupDataStore.swift */,
-				1BFB226A1E23288900D75ADD /* TableViewController.swift */,
+				1BFB226C1E232B9E00D75ADD /* MeetupTableViewController.swift */,
 				1BFB22351E1F1C3D00D75ADD /* Main.storyboard */,
 				1BFB223B1E1F1C3D00D75ADD /* Assets.xcassets */,
 				1BFB223D1E1F1C3D00D75ADD /* LaunchScreen.storyboard */,
@@ -276,10 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BFB22691E23010A00D75ADD /* MeetupDataStore.swift in Sources */,
-				1BFB226B1E23288900D75ADD /* TableViewController.swift in Sources */,
 				1BFB22651E1F20A700D75ADD /* Secrets.swift in Sources */,
 				1BFB22631E1F1C9700D75ADD /* MeetupAPIClient.swift in Sources */,
 				1BFB223A1E1F1C3D00D75ADD /* MeetupFeature.xcdatamodeld in Sources */,
+				1BFB226D1E232B9E00D75ADD /* MeetupTableViewController.swift in Sources */,
 				1BFB22321E1F1C3D00D75ADD /* AppDelegate.swift in Sources */,
 				1BFB22671E22FEC700D75ADD /* SingleMeetup.swift in Sources */,
 			);
