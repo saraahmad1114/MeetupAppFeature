@@ -15,7 +15,14 @@ class MeetupTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       
+        self.store.getMeetupInformationWith { (meetupObjectsArray) in
+            print("**********************************")
+            print(meetupObjectsArray)
+            print("**********************************")
+            OperationQueue.main.addOperation {
+                self.tableView.reloadData()
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,7 +44,7 @@ class MeetupTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "rightDetailCell", for: indexPath)
 
         // Configure the cell...
 
