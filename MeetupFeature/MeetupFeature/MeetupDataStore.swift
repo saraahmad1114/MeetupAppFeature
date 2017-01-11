@@ -27,7 +27,6 @@ class MeetupDataStore{
                 
                 guard let
                     unwrappedEventName = unwrappedSingleDictionary["name"] as? String else {print("group name did not unwrap"); return}
-                //Event Name - first level of abstraction--- single Top Dictionary
                 
                 guard let unwrappedVenueDictionary = unwrappedSingleDictionary["venue"] as? [String: Any] else {print("Venue Dictionary did not unwrap"); return}
                 
@@ -41,10 +40,8 @@ class MeetupDataStore{
                     let unwrappedStateVenue = unwrappedVenueDictionary["state"] as? String
                     
                 else {print("VENUE INFORMATION DID NOT UNWRAP"); return}
-                //second level of abstraction--- Dictionary within Dictionary
                 
                 guard let unwrappedGroupDictionary = unwrappedSingleDictionary["group"] as? [String: Any] else {print("Group Dictionary did not unwrap"); return}
-                //third level of abstraction--- Dictionary within Dictionary
                 
                 guard let unwrappedGroupName = unwrappedGroupDictionary["name"] as? String else {
                     print("group name did not unwrap"); return}
